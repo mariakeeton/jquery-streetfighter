@@ -8,14 +8,41 @@ body {
 	min-width: 1200px;
 	height: 500px;
 }
+.logo {
+	/*position: absolute;left: 726px;
+    top: 131px;*/
+	
+    
+}
+.logo img {
+	display: block;
+	width: 323px;
+	margin:0px auto 50px;
+}
+.instructions{
+	left: 743px;
+	position: absolute;
+	top: 125px;
+	width: 425px;
+
+}
+.instructions p {
+	font-family: 'Hammersmith One', sans-serif; font-size: 20px;
+    margin-top: 33px;
+    text-align: justify;
+	 font-size: 20px;
+    margin-top: 33px;
+    text-align: justify;
+}
+
 .ryu{
 	float: left;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 .ryu-ready {
@@ -27,7 +54,10 @@ body {
 .ryu-throwing {
 	background-image: url("../images/ryu-throwing-hadouken.png");
 }
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+	background-image: url("../images/ryu-cool.gif");
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 }
 .hadouken {
